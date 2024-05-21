@@ -140,6 +140,10 @@ ul.dropdown li{
     text-decoration: none;
 }
 
+.button1:hover{
+    text-shadow: 0 0 3px white;
+}
+
 
 
 /*-------Overview-------*/
