@@ -1,0 +1,155 @@
+body{
+    background-image: url('bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul.dropdown{
+    color: white;
+    width: 300%;
+    max-width: 100px;
+    position: relative;
+    cursor: pointer;
+}
+
+ul.dropdown li{
+    font-size: 20px;
+    display: flex;
+}
+
+.dropdown .dropdown_content{
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 140px;
+    background-color:red;
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: all .3s ease;
+}
+
+.dropdown .dropdown_content li{
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: background .2s ease;
+}
+
+.dropdown .dropdown_content a{
+    font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown .dropdown_content li:hover a{
+    color: red;
+}
+
+.dropdown .dropdown_content li:nth-child(1):hover{
+    background-color: white;
+}
+
+.dropdown .dropdown_content li:nth-child(2):hover{
+    background-color: white;
+    color: red;
+}
+
+.dropdown .dropdown_content li:nth-child(3):hover{
+    background-color: white;
+    color: red;
+}
+
+.dropdown .dropdown_content li:nth-child(4):hover{
+    background-color: white;
+    color: red;
+}
+
+.dropdown:hover .dropdown_content{
+    top: 100%;
+    opacity: 1;
+    pointer-events: all;
+
+}
+
+.container{
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.main_content{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2%;
+    margin-left: 3%;
+}
+h1{
+    font-family: "Jersey 10", sans-serif;
+     font-weight: 400;
+  font-style: normal;
+    font-size: 110px;
+    color: red;
+    margin-left: 5%;
+    text-shadow: 0 0 10px red;
+}
+
+#main{
+    margin-top: -20%;
+    font-size: 110px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    display: inline-block;
+}
+
+#sm{
+    width: 23%;
+    height: 23%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: -8%;
+    transition: all .3s ease
+}
+
+#sm:hover{
+    width: 26%;
+    height: 26%;
+}
+
+#Last{
+    width: 23%;
+    height: 23%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: -2%;
+    margin-top: -8%;
+    transition: all .3s ease;
+}
+
+#Last:hover{
+    width: 26%;
+    height: 26%;
+}
+
+#t8{
+    width: 23%;
+    height: 23%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: -2%;
+    margin-top: -8%;
+    transition: all .3s ease;
+}
+
+#t8:hover{
+    width: 26%;
+    height: 26%;
+}
+
+
+
