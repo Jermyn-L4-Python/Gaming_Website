@@ -382,6 +382,10 @@ video{
     margin: 10px 0;
 }
 
+.swiper span{
+    color: #EEEEEE;
+}
+
 .swiper .swiper-button-prev{
     color: #DA1212;
 }
