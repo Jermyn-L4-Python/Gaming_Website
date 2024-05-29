@@ -1,7 +1,8 @@
 body{
     background-image: url('bg.gif');
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 ul.dropdown{

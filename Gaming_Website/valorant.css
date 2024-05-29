@@ -514,3 +514,78 @@ video{
 }
 
 
+.footer_container{
+    padding: 30px 30px;
+    background-color: #F35A66;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 40px;
+    color: #f5f3f5;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #141414;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color:#f5f3f5;
+    transition: all 0.5s ease;
+}
+
+.footer_nav{
+    margin: 10px;
+}
+
+.footer_nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_nav ul a{
+    font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+    color: #f5f3f5;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all 0.5s ease;
+}
+
+.footer_nav ul a:hover{
+    color: #141414;
+}
+
+.footer_bottom{
+    background-color: #F35A66;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer_bottom p{
+    color: #f5f3f5;
+}
+
+.designer{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5;
+}
+
+
